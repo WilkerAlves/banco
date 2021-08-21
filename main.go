@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	// testesContaCorrente()
+	testesContaCorrente()
 	contaDoDenis := contas.ContaPoupanca{}
 	contaDoDenis.Depositar(100)
 	contaDoDenis.Sacar(50)
